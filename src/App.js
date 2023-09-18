@@ -12,7 +12,7 @@ import NotFound404 from './components/NotFound404/NotFound404';
 function App() {
   return (
     <div className="App">
-      {/* <Header></Header> */}
+      <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/reviews' element={<Revies></Revies>}></Route>
