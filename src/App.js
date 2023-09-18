@@ -4,10 +4,10 @@ import Header from './components/Header/Header';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Revies from './components/Reviews/Revies';
-import DashBoard from './DashBoard/DashBoard';
 import Blog from './components/Blog/Blog';
 import About from './components/About/About';
 import NotFound404 from './components/NotFound404/NotFound404';
+import DashBoard from './components/DashBoard/DashBoard';
 
 function App() {
   return (

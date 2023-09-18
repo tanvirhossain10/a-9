@@ -9,7 +9,7 @@ const NotFound404 = () => {
 
                 <h2 className='text-4xl bg-gradient-to-r bg-clip-text  text-transparent 
             from-indigo-500 via-orange-500 to-red-700
-            animate-text' >Opps 404 page not found</h2>
+            animate-text' >Opps! 404 page not found</h2>
 
 
             </div >
