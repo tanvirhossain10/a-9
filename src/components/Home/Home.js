@@ -1,5 +1,6 @@
 import React from 'react';
 import useReview from '../../hooks/useReview';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
     // const [review] = allReviewsArray;/
@@ -7,6 +8,10 @@ const Home = () => {
     const homePageReviews = reviews.slice(0, 3);
     // console.log(homePageReviews[0].body)
     // // console.log(b);
+    const navigate = useNavigate();
+    const reviewsBtn = () => {
+        navigate('/reviews')
+    }
 
     return (
         <div>
@@ -30,7 +35,7 @@ const Home = () => {
                         <p className='text-center mt-4 '><small className=' text-2xl bg-green-500 text-blue-700 rounded-full p-2  '>Star:{review.star}</small></p>
                     </div>)}
                 </div>
-                <button className='mb-10 bg-slate-600 text-slate-50 p-2 px-6 hover:bg-red-700 rounded-full'>See all Reviews</button>
+                <button onClick={() => reviewsBtn()} className='mb-10 bg-slate-600 text-slate-50 p-2 px-6 hover:bg-red-700 rounded-full'>See all Reviews</button>
             </div>
         </div>
 
