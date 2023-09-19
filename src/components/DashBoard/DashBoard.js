@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Area, Bar, CartesianGrid, Cell, ComposedChart, Legend, Line, LineChart, Scatter, Tooltip, XAxis, YAxis } from 'recharts';
+import { Area, Bar, CartesianGrid, ComposedChart, Legend, Line, LineChart, Scatter, Tooltip, XAxis, YAxis } from 'recharts';
 
 const DashBoard = () => {
     const [data, setData] = useState([]);
