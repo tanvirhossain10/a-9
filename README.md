@@ -5,4 +5,4 @@
 - There are different route like home,reviews, dashboard ,blog,about.If you try to access other route that not in our site you will fine 404 page or route
 - At last we have our live site link you can go directly to our server by clicking the link
 
-[Florex watch click to see the site](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md)
+[Florex watch click to see the site](https://650976bfe988623d3be70a22--bejewelled-kelpie-b46714.netlify.app/)
