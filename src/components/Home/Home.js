@@ -3,11 +3,8 @@ import useReview from '../../hooks/useReview';
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
-    // const [review] = allReviewsArray;/
     const [reviews, setReviews] = useReview();
     const homePageReviews = reviews.slice(0, 3);
-    // console.log(homePageReviews[0].body)
-    // // console.log(b);
     const navigate = useNavigate();
     const reviewsBtn = () => {
         navigate('/reviews')

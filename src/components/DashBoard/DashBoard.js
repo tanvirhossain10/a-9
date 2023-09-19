@@ -8,11 +8,6 @@ const DashBoard = () => {
             .then(res => res.json())
             .then(data => setData(data))
     }, []);
-    console.log(data)
-    // "month": "Apr",
-    // "investment": 200000,
-    // "sell": 423,
-    // "revenue": 24500
 
     return (
         <div>
@@ -26,14 +21,9 @@ const DashBoard = () => {
                         bottom: 5,
                     }}>
                         <CartesianGrid strokeDasharray="3 3" />
-                        {/* <CartesianGrid></CartesianGrid> */}
                         <XAxis dataKey={"month"}></XAxis>
-                        {/* <Line dataKey={"revenue"}></Line> */}
-                        {/* <Line></Line> */}
                         <Line dataKey={'investment'}></Line>
                         <Line dataKey={'revenue'}></Line>
-
-                        {/* <Line dataKey={"sell"}></Line> */}
                         <YAxis dataKey={""}></YAxis>
                         <Tooltip></Tooltip>
                         <Legend></Legend>
